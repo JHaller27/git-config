@@ -1,12 +1,9 @@
-alias.mklog log > log.txt
+alias.mklg log > log.txt
+alias.s status
 alias.ss status -s
-alias.l log
 alias.d diff
 alias.dc diff --cached
 alias.dn diff --name-only
-alias.lg1 log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 alias.c checkout
 alias.b branch
-alias.s status
-alias.log1 log --oneline
 alias.lg log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
